@@ -1,0 +1,142 @@
+body {
+    max-width: 13200px;
+    background: url('apar4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+header {
+    margin-top: 20px;
+}
+
+nav {
+    margin-left: 540px;
+}
+
+.portfolio {
+    margin-top: -20px;
+    float: right;
+}
+
+.logo {
+    float: left;
+    font-size: 24px;
+    color: white;
+    margin-left: 30px;
+}
+
+.menu a,
+.portfolio a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    background: indianred;
+}
+
+.menu a:hover {
+    background-color: red;
+}
+
+.portfolio a:hover {
+    background-color: red;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+.heading h1 {
+    font-size: 56px;
+}
+
+table {
+    width: 989px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    background-color: goldenrod;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: darkgoldenrod;
+}
+
+.intro-text {
+    width: 400px;
+    margin: auto;
+    padding: 12px;
+    background: whitesmoke;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+
+.contact-email {
+    width: 300px;
+    margin: auto;
+    padding: 12px;
+    background: whitesmoke;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+.contact-email a {
+    text-decoration: none;
+}
+
+.contact-email a:link {
+    color: red;
+}
+
+.contact-email a:visited {
+    color: green;
+}
+
+.contact-email a:hover {
+    color: hotpink;
+}
+
+.contact-email a:active {
+    color: rgb(15, 15, 16);
+}
+
+.footer {
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact page</title>
+    <link rel="stylesheet"  href="contactstyles.css">
+</head>
+<body>
+    <script>
+        function data()
+        {
+        var a = document.getElementById("fname").value;
+        var b = document.getElementById("lname").value;
+        var c = document.getElementById("mail").value; 
+        var d = document.getElementById("no").value;
+        var e = document.getElementById("box").value;
+
+        if(a=="" || b=="" || c=="" || d=="" || e=="")
+        {
+            alert("All fields are compulsory to fill");
+        }
+        else if(d.length<10)
+            {
+                alert("Number should be more than 10")
+            }
+        else if(b.length>10)
+        {
+            alert("Number should be less than")
+        }
+    }
+    </script>
+    <header>
+            <div class="logo">Apartment Finder</div>
+            <nav>
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About us</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="search.html">Search</a>
+                <a href="contact.html">Contact us</a>
+            </div>
+            <div class="portfolio">
+                <a href="portfolio.html" target="_blank">Portfolio</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="heading">
+        <h1>Welcome to Contact section</h1>
+    </section>
+
+    <div class="intro-text">
+        <p>Please fill out the form below to get in touch with us:</p>
+    </div>
+
+    <form onsubmit="data()" method="post" action="">
+        <table>
+            <tr>
+                <td><label for="fname"> Enter your first name:</label></td>
+                <td><input type="text" id="fname" placeholder="First Name"></td>
+            </tr>
+            <tr>
+                <td><label for="lname"> Enter your last name:</label></td>
+                <td><input type="text" id="lname" placeholder="Last Name"></td>
+            </tr>
+            <tr>
+                <td><label for="mail"> Enter your email:</label></td>
+                <td><input type="email" name="email" id="mail" placeholder="Email"></td>
+            </tr>
+            <tr>
+                <td><label for="no"> Enter your mobile number:</label></td>
+                <td><input type="number" name="number" id="no" maxlength="25" placeholder="Mobile Number"></td>
+            </tr>
+            <tr>
+                <td><label for="box"> Enter your message:</label></td>
+                <td><textarea cols="30" rows="5" name="itsbox" id="box" placeholder="Message"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <div class="contact-email">
+        <p>for any queries, contact us at <a href="mailto:apurbamishra777@gmail.com">email</a></p>
+    </div>
+
+    <footer class="footer">
+        <p>2024 Apartments Finder | Address: Buddhanagar, Thapathali, Ktm</p>
+    </footer>
+
+</body>
+</html>
